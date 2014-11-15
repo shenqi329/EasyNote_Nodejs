@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC85EC161A172E1800989294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85EC151A172E1800989294 /* main.m */; };
+		CC85EC191A172E1800989294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85EC181A172E1800989294 /* AppDelegate.m */; };
+		CC85EC1C1A172E1800989294 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85EC1B1A172E1800989294 /* ViewController.m */; };
+		CC85EC1F1A172E1800989294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC85EC1D1A172E1800989294 /* Main.storyboard */; };
+		CC85EC211A172E1800989294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC85EC201A172E1800989294 /* Images.xcassets */; };
+		CC85EC241A172E1800989294 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC85EC221A172E1800989294 /* LaunchScreen.xib */; };
+		CC85EC301A172E1800989294 /* EasyNote_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85EC2F1A172E1800989294 /* EasyNote_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC85EC2A1A172E1800989294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC85EC081A172E1800989294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC85EC0F1A172E1800989294;
+			remoteInfo = EasyNote_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC85EC101A172E1800989294 /* EasyNote_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNote_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC85EC141A172E1800989294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC85EC151A172E1800989294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC85EC171A172E1800989294 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC85EC181A172E1800989294 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC85EC1A1A172E1800989294 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC85EC1B1A172E1800989294 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC85EC1E1A172E1800989294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC85EC201A172E1800989294 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC85EC231A172E1800989294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC85EC291A172E1800989294 /* EasyNote_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNote_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC85EC2E1A172E1800989294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC85EC2F1A172E1800989294 /* EasyNote_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyNote_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC85EC0D1A172E1800989294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC85EC261A172E1800989294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC85EC071A172E1800989294 = {
+			isa = PBXGroup;
+			children = (
+				CC85EC121A172E1800989294 /* EasyNote_ios */,
+				CC85EC2C1A172E1800989294 /* EasyNote_iosTests */,
+				CC85EC111A172E1800989294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC85EC111A172E1800989294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC85EC101A172E1800989294 /* EasyNote_ios.app */,
+				CC85EC291A172E1800989294 /* EasyNote_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC85EC121A172E1800989294 /* EasyNote_ios */ = {
+			isa = PBXGroup;
+			children = (
+				CC85EC171A172E1800989294 /* AppDelegate.h */,
+				CC85EC181A172E1800989294 /* AppDelegate.m */,
+				CC85EC1A1A172E1800989294 /* ViewController.h */,
+				CC85EC1B1A172E1800989294 /* ViewController.m */,
+				CC85EC1D1A172E1800989294 /* Main.storyboard */,
+				CC85EC201A172E1800989294 /* Images.xcassets */,
+				CC85EC221A172E1800989294 /* LaunchScreen.xib */,
+				CC85EC131A172E1800989294 /* Supporting Files */,
+			);
+			path = EasyNote_ios;
+			sourceTree = "<group>";
+		};
+		CC85EC131A172E1800989294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC85EC141A172E1800989294 /* Info.plist */,
+				CC85EC151A172E1800989294 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC85EC2C1A172E1800989294 /* EasyNote_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC85EC2F1A172E1800989294 /* EasyNote_iosTests.m */,
+				CC85EC2D1A172E1800989294 /* Supporting Files */,
+			);
+			path = EasyNote_iosTests;
+			sourceTree = "<group>";
+		};
+		CC85EC2D1A172E1800989294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC85EC2E1A172E1800989294 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC85EC0F1A172E1800989294 /* EasyNote_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC85EC331A172E1800989294 /* Build configuration list for PBXNativeTarget "EasyNote_ios" */;
+			buildPhases = (
+				CC85EC0C1A172E1800989294 /* Sources */,
+				CC85EC0D1A172E1800989294 /* Frameworks */,
+				CC85EC0E1A172E1800989294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNote_ios;
+			productName = EasyNote_ios;
+			productReference = CC85EC101A172E1800989294 /* EasyNote_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC85EC281A172E1800989294 /* EasyNote_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC85EC361A172E1800989294 /* Build configuration list for PBXNativeTarget "EasyNote_iosTests" */;
+			buildPhases = (
+				CC85EC251A172E1800989294 /* Sources */,
+				CC85EC261A172E1800989294 /* Frameworks */,
+				CC85EC271A172E1800989294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC85EC2B1A172E1800989294 /* PBXTargetDependency */,
+			);
+			name = EasyNote_iosTests;
+			productName = EasyNote_iosTests;
+			productReference = CC85EC291A172E1800989294 /* EasyNote_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC85EC081A172E1800989294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = shenqi329;
+				TargetAttributes = {
+					CC85EC0F1A172E1800989294 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CC85EC281A172E1800989294 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CC85EC0F1A172E1800989294;
+					};
+				};
+			};
+			buildConfigurationList = CC85EC0B1A172E1800989294 /* Build configuration list for PBXProject "EasyNote_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC85EC071A172E1800989294;
+			productRefGroup = CC85EC111A172E1800989294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC85EC0F1A172E1800989294 /* EasyNote_ios */,
+				CC85EC281A172E1800989294 /* EasyNote_iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC85EC0E1A172E1800989294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85EC1F1A172E1800989294 /* Main.storyboard in Resources */,
+				CC85EC241A172E1800989294 /* LaunchScreen.xib in Resources */,
+				CC85EC211A172E1800989294 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC85EC271A172E1800989294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC85EC0C1A172E1800989294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85EC1C1A172E1800989294 /* ViewController.m in Sources */,
+				CC85EC191A172E1800989294 /* AppDelegate.m in Sources */,
+				CC85EC161A172E1800989294 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC85EC251A172E1800989294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85EC301A172E1800989294 /* EasyNote_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC85EC2B1A172E1800989294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC85EC0F1A172E1800989294 /* EasyNote_ios */;
+			targetProxy = CC85EC2A1A172E1800989294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC85EC1D1A172E1800989294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC85EC1E1A172E1800989294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC85EC221A172E1800989294 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC85EC231A172E1800989294 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC85EC311A172E1800989294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC85EC321A172E1800989294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC85EC341A172E1800989294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyNote_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC85EC351A172E1800989294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyNote_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC85EC371A172E1800989294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyNote_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNote_ios.app/EasyNote_ios";
+			};
+			name = Debug;
+		};
+		CC85EC381A172E1800989294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyNote_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNote_ios.app/EasyNote_ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC85EC0B1A172E1800989294 /* Build configuration list for PBXProject "EasyNote_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85EC311A172E1800989294 /* Debug */,
+				CC85EC321A172E1800989294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC85EC331A172E1800989294 /* Build configuration list for PBXNativeTarget "EasyNote_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85EC341A172E1800989294 /* Debug */,
+				CC85EC351A172E1800989294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC85EC361A172E1800989294 /* Build configuration list for PBXNativeTarget "EasyNote_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85EC371A172E1800989294 /* Debug */,
+				CC85EC381A172E1800989294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC85EC081A172E1800989294 /* Project object */;
+}
