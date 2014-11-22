@@ -2,7 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="987f0d4c-778e-4f27-91fe-7b5c0ec10271" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIAuthenticationDialog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIAuthenticationDialog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIAuthenticationDialog.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIAuthenticationDialog.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASICacheDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASICacheDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIDataCompressor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIDataCompressor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIDataCompressor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIDataCompressor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIDataDecompressor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIDataDecompressor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIDataDecompressor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIDataDecompressor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIDownloadCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIDownloadCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIDownloadCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIDownloadCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIFormDataRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIFormDataRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIFormDataRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIFormDataRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIHTTPRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIHTTPRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIHTTPRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIHTTPRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIHTTPRequestConfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIHTTPRequestConfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIHTTPRequestDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIHTTPRequestDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIInputStream.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIInputStream.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIInputStream.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIInputStream.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASINetworkQueue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASINetworkQueue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASINetworkQueue.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASINetworkQueue.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/ASIProgressDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/ASIProgressDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/ENRequest/ENRegisterRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/ENRequest/ENRegisterRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/ENRequest/ENRegisterRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/ENRequest/ENRegisterRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_iosTests/ENRegisterRequestTest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/ENRequest/EasyNoteData.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/ENRequest/EasyNoteData.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/ENRequest/EasyNoteData.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/ENRequest/EasyNoteData.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/ENRequest/EasyNoteRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/ENRequest/EasyNoteRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/ENRequest/EasyNoteRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/ENRequest/EasyNoteRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_iosTests/EasyNoteRequestTest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_iosTests/EasyNoteRequestTest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_MacTests/EasyNote_MacTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_MacTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/JSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/JSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/jastor/Jastor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/jastor/Jastor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/jastor/Jastor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/jastor/Jastor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/jastor/JastorRuntimeHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/jastor/JastorRuntimeHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/jastor/JastorRuntimeHelper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/jastor/JastorRuntimeHelper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Base.lproj/MainMenu.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/NSData+SBJSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/NSData+SBJSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/NSData+SBJSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/NSData+SBJSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/NSObject+SBJSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/NSObject+SBJSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/NSObject+SBJSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/NSObject+SBJSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/NSString+SBJSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/NSString+SBJSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/NSString+SBJSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/NSString+SBJSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/Reachability.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/Reachability.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/ASIHTTPRequest/Reachability.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/ASIHTTPRequest/Reachability.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/SBJSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/SBJSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/SBJSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/SBJSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/SBJsonBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/SBJsonBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/SBJsonBase.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/SBJsonBase.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/SBJsonParser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/SBJsonParser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/SBJsonParser.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/SBJsonParser.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/SBJsonWriter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/SBJsonWriter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/SBJson/SBJsonWriter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/SBJson/SBJsonWriter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/UIView+AutoLayout/UIView+AutoLayout.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/UIView+AutoLayout/UIView+AutoLayout.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/Third/UIView+AutoLayout/UIView+AutoLayout.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_ios/Third/UIView+AutoLayout/UIView+AutoLayout.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../EasyNote_Mac/EasyNote_Mac.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios.xcodeproj/project.xcworkspace/xcuserdata/shenqi329.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios.xcodeproj/project.xcworkspace/xcuserdata/shenqi329.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/ENResponseData.js" afterPath="$PROJECT_DIR$/models/ENResponseData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/Base.lproj/LaunchScreen.xib" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/Base.lproj/LaunchScreen.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../EasyNote_ios/EasyNote_ios.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EasyNote.iws" />
@@ -52,8 +167,8 @@
       <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1410">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1410">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,21 +204,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reg.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/reg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="945">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.3934708" vertical-offset="191" max-vertical-offset="945">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="note.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="note.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/note.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0994695" vertical-offset="0" max-vertical-offset="754">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -111,21 +226,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="note1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/note1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ENResponseData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/ENResponseData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="405">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -147,13 +252,13 @@
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/models/User1.js" />
         <option value="$PROJECT_DIR$/models/easynotedb.js" />
-        <option value="$PROJECT_DIR$/models/ENResponseData.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/models/User.js" />
         <option value="$PROJECT_DIR$/routes/reg.js" />
         <option value="$PROJECT_DIR$/routes/note.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/note1.js" />
+        <option value="$PROJECT_DIR$/models/ENResponseData.js" />
       </list>
     </option>
   </component>
@@ -161,10 +266,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="718" />
-    <option name="y" value="30" />
-    <option name="width" value="1196" />
-    <option name="height" value="851" />
+    <option name="x" value="74" />
+    <option name="y" value="23" />
+    <option name="width" value="1036" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -254,6 +359,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyNote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyNote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -267,13 +386,17 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/EasyNote-master" />
   </component>
   <component name="RunManager" selected="Node.js.bin/www">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -281,10 +404,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -333,27 +452,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="718" y="30" width="1196" height="851" extended-state="0" />
+    <frame x="74" y="23" width="1036" height="937" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2700669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27027026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39897698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.297235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -380,12 +499,27 @@
           <line>5</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/reg.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/models/ENResponseData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/middleware/query.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
@@ -663,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2399" max-vertical-offset="2955">
           <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -716,6 +841,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1095">
@@ -724,39 +859,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/reg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="945">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/ENResponseData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/note1.js">
+    <entry file="file://$PROJECT_DIR$/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/note.js">
+    <entry file="file://$PROJECT_DIR$/routes/reg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0994695" vertical-offset="0" max-vertical-offset="754">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.3934708" vertical-offset="191" max-vertical-offset="945">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

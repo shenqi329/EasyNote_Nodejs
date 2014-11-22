@@ -5,18 +5,18 @@
 
 module.exports = ENResponseData;
 
-function ENResponseData(type,description) {
-	this.type = type;
-	this.description = description;
+function ENResponseData(code,data) {
+	this.code = code;
+	this.data = data;
 }
 
-function ENResponseData(description) {
-	this.type = '000001';
-	this.description = description;
+function ENResponseData(data) {
+	this.code = '000001';
+	this.data = data;
 }
 
 ENResponseData.prototype.isSuccess = function(){
-	return this.type == '000001';
+	return this.code == '000001';
 }
 
 ENResponseData.prototype.DEFAULT_TYPE = '000001';

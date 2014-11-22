@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC85ECAB1A17417700989294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECAA1A17417700989294 /* AppDelegate.m */; };
+		CC85ECAD1A17417700989294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECAC1A17417700989294 /* main.m */; };
+		CC85ECAF1A17417700989294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC85ECAE1A17417700989294 /* Images.xcassets */; };
+		CC85ECB21A17417700989294 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC85ECB01A17417700989294 /* MainMenu.xib */; };
+		CC85ECBE1A17417700989294 /* EasyNote_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECBD1A17417700989294 /* EasyNote_MacTests.m */; };
+		CC85ECF71A1741C300989294 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECCA1A1741C300989294 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ECF81A1741C300989294 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECCD1A1741C300989294 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ECF91A1741C300989294 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECCF1A1741C300989294 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ECFA1A1741C300989294 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECD11A1741C300989294 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ECFB1A1741C300989294 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECD31A1741C300989294 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ECFC1A1741C300989294 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECD51A1741C300989294 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ECFD1A1741C300989294 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECD91A1741C300989294 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ECFE1A1741C300989294 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECDB1A1741C300989294 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ECFF1A1741C300989294 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECDE1A1741C300989294 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED001A1741C300989294 /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECE11A1741C300989294 /* Jastor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED011A1741C300989294 /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECE31A1741C300989294 /* JastorRuntimeHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED021A1741C300989294 /* NSData+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECE71A1741C300989294 /* NSData+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED031A1741C300989294 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECE91A1741C300989294 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED041A1741C300989294 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECEB1A1741C300989294 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED051A1741C300989294 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECED1A1741C300989294 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED061A1741C300989294 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECEF1A1741C300989294 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED071A1741C300989294 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECF11A1741C300989294 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED081A1741C300989294 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECF31A1741C300989294 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED091A1741C300989294 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ECF61A1741C300989294 /* UIView+AutoLayout.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC85ED111A1741C800989294 /* EasyNoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ED0C1A1741C800989294 /* EasyNoteData.m */; };
+		CC85ED121A1741C800989294 /* EasyNoteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ED0E1A1741C800989294 /* EasyNoteRequest.m */; };
+		CC85ED131A1741C800989294 /* ENRegisterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85ED101A1741C800989294 /* ENRegisterRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC85ECB81A17417700989294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC85EC9C1A17417700989294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC85ECA31A17417700989294;
+			remoteInfo = EasyNote_Mac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC85ECA41A17417700989294 /* EasyNote_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNote_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC85ECA81A17417700989294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC85ECA91A17417700989294 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC85ECAA1A17417700989294 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC85ECAC1A17417700989294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC85ECAE1A17417700989294 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC85ECB11A17417700989294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CC85ECB71A17417700989294 /* EasyNote_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNote_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC85ECBC1A17417700989294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC85ECBD1A17417700989294 /* EasyNote_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyNote_MacTests.m; sourceTree = "<group>"; };
+		CC85ECC91A1741C300989294 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		CC85ECCA1A1741C300989294 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		CC85ECCB1A1741C300989294 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		CC85ECCC1A1741C300989294 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		CC85ECCD1A1741C300989294 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		CC85ECCE1A1741C300989294 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		CC85ECCF1A1741C300989294 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		CC85ECD01A1741C300989294 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		CC85ECD11A1741C300989294 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		CC85ECD21A1741C300989294 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		CC85ECD31A1741C300989294 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		CC85ECD41A1741C300989294 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		CC85ECD51A1741C300989294 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		CC85ECD61A1741C300989294 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		CC85ECD71A1741C300989294 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		CC85ECD81A1741C300989294 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		CC85ECD91A1741C300989294 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		CC85ECDA1A1741C300989294 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		CC85ECDB1A1741C300989294 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		CC85ECDC1A1741C300989294 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		CC85ECDD1A1741C300989294 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CC85ECDE1A1741C300989294 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CC85ECE01A1741C300989294 /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		CC85ECE11A1741C300989294 /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		CC85ECE21A1741C300989294 /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		CC85ECE31A1741C300989294 /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		CC85ECE51A1741C300989294 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		CC85ECE61A1741C300989294 /* NSData+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SBJSON.h"; sourceTree = "<group>"; };
+		CC85ECE71A1741C300989294 /* NSData+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SBJSON.m"; sourceTree = "<group>"; };
+		CC85ECE81A1741C300989294 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		CC85ECE91A1741C300989294 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		CC85ECEA1A1741C300989294 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		CC85ECEB1A1741C300989294 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		CC85ECEC1A1741C300989294 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		CC85ECED1A1741C300989294 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		CC85ECEE1A1741C300989294 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		CC85ECEF1A1741C300989294 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		CC85ECF01A1741C300989294 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		CC85ECF11A1741C300989294 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		CC85ECF21A1741C300989294 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		CC85ECF31A1741C300989294 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		CC85ECF51A1741C300989294 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		CC85ECF61A1741C300989294 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		CC85ED0B1A1741C800989294 /* EasyNoteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNoteData.h; sourceTree = "<group>"; };
+		CC85ED0C1A1741C800989294 /* EasyNoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNoteData.m; sourceTree = "<group>"; };
+		CC85ED0D1A1741C800989294 /* EasyNoteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNoteRequest.h; sourceTree = "<group>"; };
+		CC85ED0E1A1741C800989294 /* EasyNoteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNoteRequest.m; sourceTree = "<group>"; };
+		CC85ED0F1A1741C800989294 /* ENRegisterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENRegisterRequest.h; sourceTree = "<group>"; };
+		CC85ED101A1741C800989294 /* ENRegisterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENRegisterRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC85ECA11A17417700989294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC85ECB41A17417700989294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC85EC9B1A17417700989294 = {
+			isa = PBXGroup;
+			children = (
+				CC85ECA61A17417700989294 /* EasyNote_Mac */,
+				CC85ECBA1A17417700989294 /* EasyNote_MacTests */,
+				CC85ECA51A17417700989294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC85ECA51A17417700989294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECA41A17417700989294 /* EasyNote_Mac.app */,
+				CC85ECB71A17417700989294 /* EasyNote_MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC85ECA61A17417700989294 /* EasyNote_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ED0A1A1741C800989294 /* ENRequest */,
+				CC85ECC71A1741C300989294 /* Third */,
+				CC85ECA91A17417700989294 /* AppDelegate.h */,
+				CC85ECAA1A17417700989294 /* AppDelegate.m */,
+				CC85ECAE1A17417700989294 /* Images.xcassets */,
+				CC85ECB01A17417700989294 /* MainMenu.xib */,
+				CC85ECA71A17417700989294 /* Supporting Files */,
+			);
+			path = EasyNote_Mac;
+			sourceTree = "<group>";
+		};
+		CC85ECA71A17417700989294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECA81A17417700989294 /* Info.plist */,
+				CC85ECAC1A17417700989294 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC85ECBA1A17417700989294 /* EasyNote_MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECBD1A17417700989294 /* EasyNote_MacTests.m */,
+				CC85ECBB1A17417700989294 /* Supporting Files */,
+			);
+			path = EasyNote_MacTests;
+			sourceTree = "<group>";
+		};
+		CC85ECBB1A17417700989294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECBC1A17417700989294 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC85ECC71A1741C300989294 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECC81A1741C300989294 /* ASIHTTPRequest */,
+				CC85ECDF1A1741C300989294 /* jastor */,
+				CC85ECE41A1741C300989294 /* SBJson */,
+				CC85ECF41A1741C300989294 /* UIView+AutoLayout */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		CC85ECC81A1741C300989294 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECC91A1741C300989294 /* ASIAuthenticationDialog.h */,
+				CC85ECCA1A1741C300989294 /* ASIAuthenticationDialog.m */,
+				CC85ECCB1A1741C300989294 /* ASICacheDelegate.h */,
+				CC85ECCC1A1741C300989294 /* ASIDataCompressor.h */,
+				CC85ECCD1A1741C300989294 /* ASIDataCompressor.m */,
+				CC85ECCE1A1741C300989294 /* ASIDataDecompressor.h */,
+				CC85ECCF1A1741C300989294 /* ASIDataDecompressor.m */,
+				CC85ECD01A1741C300989294 /* ASIDownloadCache.h */,
+				CC85ECD11A1741C300989294 /* ASIDownloadCache.m */,
+				CC85ECD21A1741C300989294 /* ASIFormDataRequest.h */,
+				CC85ECD31A1741C300989294 /* ASIFormDataRequest.m */,
+				CC85ECD41A1741C300989294 /* ASIHTTPRequest.h */,
+				CC85ECD51A1741C300989294 /* ASIHTTPRequest.m */,
+				CC85ECD61A1741C300989294 /* ASIHTTPRequestConfig.h */,
+				CC85ECD71A1741C300989294 /* ASIHTTPRequestDelegate.h */,
+				CC85ECD81A1741C300989294 /* ASIInputStream.h */,
+				CC85ECD91A1741C300989294 /* ASIInputStream.m */,
+				CC85ECDA1A1741C300989294 /* ASINetworkQueue.h */,
+				CC85ECDB1A1741C300989294 /* ASINetworkQueue.m */,
+				CC85ECDC1A1741C300989294 /* ASIProgressDelegate.h */,
+				CC85ECDD1A1741C300989294 /* Reachability.h */,
+				CC85ECDE1A1741C300989294 /* Reachability.m */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		CC85ECDF1A1741C300989294 /* jastor */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECE01A1741C300989294 /* Jastor.h */,
+				CC85ECE11A1741C300989294 /* Jastor.m */,
+				CC85ECE21A1741C300989294 /* JastorRuntimeHelper.h */,
+				CC85ECE31A1741C300989294 /* JastorRuntimeHelper.m */,
+			);
+			path = jastor;
+			sourceTree = "<group>";
+		};
+		CC85ECE41A1741C300989294 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECE51A1741C300989294 /* JSON.h */,
+				CC85ECE61A1741C300989294 /* NSData+SBJSON.h */,
+				CC85ECE71A1741C300989294 /* NSData+SBJSON.m */,
+				CC85ECE81A1741C300989294 /* NSObject+SBJSON.h */,
+				CC85ECE91A1741C300989294 /* NSObject+SBJSON.m */,
+				CC85ECEA1A1741C300989294 /* NSString+SBJSON.h */,
+				CC85ECEB1A1741C300989294 /* NSString+SBJSON.m */,
+				CC85ECEC1A1741C300989294 /* SBJSON.h */,
+				CC85ECED1A1741C300989294 /* SBJSON.m */,
+				CC85ECEE1A1741C300989294 /* SBJsonBase.h */,
+				CC85ECEF1A1741C300989294 /* SBJsonBase.m */,
+				CC85ECF01A1741C300989294 /* SBJsonParser.h */,
+				CC85ECF11A1741C300989294 /* SBJsonParser.m */,
+				CC85ECF21A1741C300989294 /* SBJsonWriter.h */,
+				CC85ECF31A1741C300989294 /* SBJsonWriter.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		CC85ECF41A1741C300989294 /* UIView+AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ECF51A1741C300989294 /* UIView+AutoLayout.h */,
+				CC85ECF61A1741C300989294 /* UIView+AutoLayout.m */,
+			);
+			path = "UIView+AutoLayout";
+			sourceTree = "<group>";
+		};
+		CC85ED0A1A1741C800989294 /* ENRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CC85ED0B1A1741C800989294 /* EasyNoteData.h */,
+				CC85ED0C1A1741C800989294 /* EasyNoteData.m */,
+				CC85ED0D1A1741C800989294 /* EasyNoteRequest.h */,
+				CC85ED0E1A1741C800989294 /* EasyNoteRequest.m */,
+				CC85ED0F1A1741C800989294 /* ENRegisterRequest.h */,
+				CC85ED101A1741C800989294 /* ENRegisterRequest.m */,
+			);
+			path = ENRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC85ECA31A17417700989294 /* EasyNote_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC85ECC11A17417700989294 /* Build configuration list for PBXNativeTarget "EasyNote_Mac" */;
+			buildPhases = (
+				CC85ECA01A17417700989294 /* Sources */,
+				CC85ECA11A17417700989294 /* Frameworks */,
+				CC85ECA21A17417700989294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNote_Mac;
+			productName = EasyNote_Mac;
+			productReference = CC85ECA41A17417700989294 /* EasyNote_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC85ECB61A17417700989294 /* EasyNote_MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC85ECC41A17417700989294 /* Build configuration list for PBXNativeTarget "EasyNote_MacTests" */;
+			buildPhases = (
+				CC85ECB31A17417700989294 /* Sources */,
+				CC85ECB41A17417700989294 /* Frameworks */,
+				CC85ECB51A17417700989294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC85ECB91A17417700989294 /* PBXTargetDependency */,
+			);
+			name = EasyNote_MacTests;
+			productName = EasyNote_MacTests;
+			productReference = CC85ECB71A17417700989294 /* EasyNote_MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC85EC9C1A17417700989294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = shenqi329;
+				TargetAttributes = {
+					CC85ECA31A17417700989294 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CC85ECB61A17417700989294 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CC85ECA31A17417700989294;
+					};
+				};
+			};
+			buildConfigurationList = CC85EC9F1A17417700989294 /* Build configuration list for PBXProject "EasyNote_Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC85EC9B1A17417700989294;
+			productRefGroup = CC85ECA51A17417700989294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC85ECA31A17417700989294 /* EasyNote_Mac */,
+				CC85ECB61A17417700989294 /* EasyNote_MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC85ECA21A17417700989294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85ECAF1A17417700989294 /* Images.xcassets in Resources */,
+				CC85ECB21A17417700989294 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC85ECB51A17417700989294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC85ECA01A17417700989294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85ECFB1A1741C300989294 /* ASIFormDataRequest.m in Sources */,
+				CC85ED081A1741C300989294 /* SBJsonWriter.m in Sources */,
+				CC85ECFC1A1741C300989294 /* ASIHTTPRequest.m in Sources */,
+				CC85ED001A1741C300989294 /* Jastor.m in Sources */,
+				CC85ECAD1A17417700989294 /* main.m in Sources */,
+				CC85ECFF1A1741C300989294 /* Reachability.m in Sources */,
+				CC85ECF71A1741C300989294 /* ASIAuthenticationDialog.m in Sources */,
+				CC85ECFE1A1741C300989294 /* ASINetworkQueue.m in Sources */,
+				CC85ED071A1741C300989294 /* SBJsonParser.m in Sources */,
+				CC85ED061A1741C300989294 /* SBJsonBase.m in Sources */,
+				CC85ECFA1A1741C300989294 /* ASIDownloadCache.m in Sources */,
+				CC85ECFD1A1741C300989294 /* ASIInputStream.m in Sources */,
+				CC85ED021A1741C300989294 /* NSData+SBJSON.m in Sources */,
+				CC85ED031A1741C300989294 /* NSObject+SBJSON.m in Sources */,
+				CC85ED011A1741C300989294 /* JastorRuntimeHelper.m in Sources */,
+				CC85ED131A1741C800989294 /* ENRegisterRequest.m in Sources */,
+				CC85ED121A1741C800989294 /* EasyNoteRequest.m in Sources */,
+				CC85ED111A1741C800989294 /* EasyNoteData.m in Sources */,
+				CC85ED051A1741C300989294 /* SBJSON.m in Sources */,
+				CC85ECF81A1741C300989294 /* ASIDataCompressor.m in Sources */,
+				CC85ECAB1A17417700989294 /* AppDelegate.m in Sources */,
+				CC85ED041A1741C300989294 /* NSString+SBJSON.m in Sources */,
+				CC85ED091A1741C300989294 /* UIView+AutoLayout.m in Sources */,
+				CC85ECF91A1741C300989294 /* ASIDataDecompressor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC85ECB31A17417700989294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85ECBE1A17417700989294 /* EasyNote_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC85ECB91A17417700989294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC85ECA31A17417700989294 /* EasyNote_Mac */;
+			targetProxy = CC85ECB81A17417700989294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC85ECB01A17417700989294 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC85ECB11A17417700989294 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC85ECBF1A17417700989294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC85ECC01A17417700989294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC85ECC21A17417700989294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EasyNote_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC85ECC31A17417700989294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EasyNote_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC85ECC51A17417700989294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyNote_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNote_Mac.app/Contents/MacOS/EasyNote_Mac";
+			};
+			name = Debug;
+		};
+		CC85ECC61A17417700989294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyNote_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNote_Mac.app/Contents/MacOS/EasyNote_Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC85EC9F1A17417700989294 /* Build configuration list for PBXProject "EasyNote_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85ECBF1A17417700989294 /* Debug */,
+				CC85ECC01A17417700989294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC85ECC11A17417700989294 /* Build configuration list for PBXNativeTarget "EasyNote_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85ECC21A17417700989294 /* Debug */,
+				CC85ECC31A17417700989294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC85ECC41A17417700989294 /* Build configuration list for PBXNativeTarget "EasyNote_MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85ECC51A17417700989294 /* Debug */,
+				CC85ECC61A17417700989294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC85EC9C1A17417700989294 /* Project object */;
+}
