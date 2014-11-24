@@ -22,11 +22,17 @@ User.prototype.isNameExist = function(callback){
 
 		collection.find({'name':self.name}, function (err,cursor) {
 			cursor.nextObject(function(err,doc){
-				if(doc){
-					self.id = doc._id;
-					callback(true);
+				if(doc && doc.password){
+					//console.log('%s %s',self.password,doc.password);
+					if(self.password == doc.password){
+						self.id = doc._id;
+						callback(true,true);
+					}else{
+						callback(true,false);
+					}
+
 				}else{
-					callback(false);
+					callback(false,false);
 				}
 			});
 		})
@@ -39,7 +45,7 @@ User.prototype.addOrUpdate = function(callback){
 	db.collection('user', function (err, collection) {
 		collection.find({'name':this.name}, function (err,cursor) {
 			cursor.nextObject(function(err,doc){
-				if(doc){
+				if(doc && doc.name){
 					doc.password = self.password;
 					callback(true);
 				}else{

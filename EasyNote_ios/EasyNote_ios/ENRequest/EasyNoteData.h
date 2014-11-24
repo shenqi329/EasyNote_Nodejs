@@ -25,10 +25,6 @@ typedef enum {
  *  请求回应的字符串对于的对象的通用父对象
  */
 @interface EasyNoteData : Jastor
-
-
-+ (NSString*)cycleWithType:(SMART_WATCH_DATA_CYCLE_TYPE)type;
-
 /**
  *  返回码
  */

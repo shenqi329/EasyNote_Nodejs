@@ -36,7 +36,10 @@
         _formValue = formValue;
         _method = method;
         
+        //[self addRequestHeader:@"Content-Type" value:@"multipart/form-data"];
+        
         if (formValue) {
+            //self.formValue = [NSDictionary dictionaryWithObjectsAndKeys:self.formValue,@"form",nil];
             NSLog(@"%@",[self.formValue JSONFragment] );
             NSMutableData *tempPostData = [NSMutableData dataWithData:[[self.formValue JSONFragment] dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES]];
             

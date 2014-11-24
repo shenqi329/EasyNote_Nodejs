@@ -9,6 +9,7 @@ var routes = require('./routes/index');
 var users =  require('./routes/users');
 var reg =    require('./routes/reg');
 var note =   require('./routes/note');
+var login = require('./routes/login');
 
 var user = require('./models/User');
 
@@ -30,6 +31,7 @@ app.use('/', routes);
 app.use('/users', users);
 app.use('/reg',reg);
 app.use('/note',note);
+app.use('/login',login);
 
 
 // catch 404 and forward to error handler

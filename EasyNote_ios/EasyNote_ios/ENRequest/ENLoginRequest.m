@@ -1,31 +1,31 @@
 //
-//  ENRegisterRequest.m
+//  ENLoginRequest.m
 //  EasyNote_ios
 //
-//  Created by shenqi329 on 14/11/15.
+//  Created by shenqi329 on 14/11/22.
 //  Copyright (c) 2014年 shenqi329. All rights reserved.
 //
 
-#import "ENRegisterRequest.h"
+#import "ENLoginRequest.h"
 
-@implementation ENRegisterRequest
+@implementation ENLoginRequest
 
 - (id)initPostRequestWithUsername:(NSString*)userName password:(NSString*)passWord
 {
     NSDictionary *dic = @{@"name":userName,@"password":passWord};
-    if (self = [super initWithUrl:@"/reg" formValue:dic method:@"POST"]) {
+    if (self = [super initWithUrl:@"/login" formValue:dic method:@"POST"]) {
         
     }
     return self;
 }
 
--(EasyNoteData*)responseStringToObject
+- (EasyNoteData*)responseStringToObject
 {
     EasyNoteData *data = nil;
     NSDictionary *dic = [self responseStringToDictionary];
     
     if (self.isPost) {
-        data = [[ENRegisterDataResponsePost alloc] initWithDictionary:dic];
+        data = [[ENLoginDataResponsePost alloc] initWithDictionary:dic];
     }
     
     return data;

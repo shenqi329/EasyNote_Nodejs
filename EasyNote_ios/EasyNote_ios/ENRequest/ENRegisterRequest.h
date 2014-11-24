@@ -7,9 +7,10 @@
 //
 
 #import "EasyNoteRequest.h"
+#import "ENRegisterData.h"
 
 @interface ENRegisterRequest : EasyNoteRequest
 
-- (id)initPostRequestWithUsername:(NSString*)username password:(NSString*)password;
+- (id)initPostRequestWithUsername:(NSString*)userName password:(NSString*)passWord;
 
 @end
